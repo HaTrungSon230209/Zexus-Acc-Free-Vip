@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Zexus Acc Free Vip</title>
+</head>
+<body>
+
+  <style>
+    body {
+      background:url(img.jpg) no-repeat;
+      box-shadow: 0 0 50px #0ef;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .khung {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.3);
+      text-align: center;
+      width: 320px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+
+    input[type="text"] {
+      padding: 10px;
+      width: 250px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 5px;
+      transition: 0.3s;
+    }
+
+.laykey {
+  background: rgba(0, 217, 255, 0.7);
+  color: #000;
+}
+
+.xacnhan {
+  background: rgba(0, 255, 76, 0.8);
+  color: #000;
+}
+
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    .acc-box {
+      background: #222;
+      padding: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      color: #0ff;
+      display: none;
+    }
+
+    .acc-label {
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #ff00ff;
+    }
+
+    .acc-input {
+      width: 90%;
+      padding: 8px;
+      border-radius: 8px;
+      border: none;
+      background: #333;
+      color: #0ff;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+@keyframes glow-border {
+  0% {
+    box-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 30px #0ef, 0 0 40px #0ef;
+  }
+  50% {
+    box-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
+  }
+  100% {
+    box-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 30px #0ef, 0 0 40px #0ef;
+  }
+}
+
+@keyframes glow-rainbow {
+  0%   { box-shadow: 0 0 40px red; }
+  14%  { box-shadow: 0 0 40px orange; }
+  28%  { box-shadow: 0 0 40px yellow; }
+  42%  { box-shadow: 0 0 40px green; }
+  57%  { box-shadow: 0 0 40px blue; }
+  71%  { box-shadow: 0 0 40px indigo; }
+  85%  { box-shadow: 0 0 40px violet; }
+  100% { box-shadow: 0 0 40px red; }
+}
+
+@keyframes button-glow {
+  0% {
+    box-shadow: 0 0 5px rgba(0,255,255,0.5), 0 0 10px rgba(0,255,255,0.4);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(0,255,255,0.8), 0 0 20px rgba(0,255,255,0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0,255,255,0.5), 0 0 10px rgba(0,255,255,0.4);
+  }
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="khung">
+  <div id="keyForm">
+  <h2>🔒 Nhập Key Nhận Acc Free</h2> 
+  <input type="text" id="keyInput" placeholder="Nhập key tại đây..."><br>
+
+    <button class="laykey" onclick="window.open('https://yeumoney.com/UGWgRD','_blank')">🔑 Lấy Key</button>
+    <button class="xacnhan" onclick="kiemTraKey()">✅ Xác Nhận Key</button>
+    </div>
+    <div id="accArea" style="margin-top:20px;">
+      <div class="acc-box" id="accFF">
+        <div class="acc-label">🔥 Free Fire</div>
+        <input class="acc-input" type="text" readonly value="Tài Khoản: ff123">
+        <input class="acc-input" type="text" readonly value="Mật Khẩu: mkff123">
+      </div>
+
+      <div class="acc-box" id="accLQ">
+        <div class="acc-label">⚔️ Liên Quân</div>
+        <input class="acc-input" type="text" readonly value="Tài Khoản: lq456">
+        <input class="acc-input" type="text" readonly value="Mật Khẩu: mklq456">
+      </div>
+
+      <div class="acc-box" id="accRBL">
+        <div class="acc-label">🤖 Roblox</div>
+        <input class="acc-input" type="text" readonly value="Tài Khoản: rb789">
+        <input class="acc-input" type="text" readonly value="Mật Khẩu: mkrb789">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const keyDung = "Key-accvip2302"; // Đổi key ở đây
+
+    function kiemTraKey() {
+      const nhapKey = document.getElementById("keyInput").value;
+if (nhapKey === keyDung) {
+  // Ẩn phần nhập key
+  document.getElementById("keyForm").style.display = "none";
+
+  // Hiện acc
+  document.getElementById("accFF").style.display = "block";
+  document.getElementById("accLQ").style.display = "block";
+  document.getElementById("accRBL").style.display = "block";
+}
+    }
+</script>
+
+</body>
+</html>
+
+
